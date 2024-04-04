@@ -9,8 +9,9 @@ import {
 
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { fadeIn } from "../../../../Portfolio/src/variants";
+
 import japan_loc from "../../assets/loc-jp.jpg";
+import { fadeIn } from "../AnimationText/variants";
 
 function About() {
   return (
