@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../AnimationText/variants";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import CV from "../../assets/9_CV Nguyễn Xuân Lộc - loc-cv222-TopCV.vn.pdf";
+import CV from "../../assets/mycv.pdf";
 import { Link } from "react-scroll";
 
 const Banner = () => {
