@@ -4,14 +4,25 @@ import { fadeIn } from "../AnimationText/variants";
 
 const ListProject = [
   {
-    name: "Login google with  firebase ",
+    name: "Login template ",
     description: "Login and Register",
     technologies: "ReactJs, Typescript, Firebase.",
-    time: " 2 day",
+    time: " 1 day",
     image:
       "https://firebasestorage.googleapis.com/v0/b/project-m5-7b167.appspot.com/o/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202024-04-05%20lu%CC%81c%2002.26.20.png?alt=media&token=5f1fadaa-36cb-47b7-a035-2e91f9339c5e",
     live: "https://login-google25.netlify.app/#",
     source: "https://github.com/bebi21/Login-TS-tempalate.git",
+    active: true,
+  },
+  {
+    name: "Shop Clothing ",
+    description: "shop clothing",
+    technologies: "ReactJs , Taiwind, Antd",
+    time: "Project is in progress. Updates to follow.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/project-m5-7b167.appspot.com/o/A%CC%89nh%20ma%CC%80n%20hi%CC%80nh%202024-04-08%20lu%CC%81c%2001.59.05.png?alt=media&token=b3a2b08b-9476-4fa2-a6fd-2f527f485ef6",
+    live: "https://master--shopclothing21.netlify.app/",
+    source: "https://github.com/bebi21/shop_clothing.git",
     active: true,
   },
 ];
@@ -68,6 +79,10 @@ function Projects() {
                     <p>
                       <strong>Technologies Used:</strong>{" "}
                       <span className='text-[0.9em]'>{item.technologies}</span>
+                    </p>
+                    <p>
+                      <strong>Time:</strong>{" "}
+                      <span className='text-[0.9em]'>{item.time}</span>
                     </p>
                   </div>
                   <div className='flex gap-3 items-center justify-center mt-4 text-[0.8em]'>
